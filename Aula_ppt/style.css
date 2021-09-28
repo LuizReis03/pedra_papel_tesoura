@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bg{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B7DB8A;
+    width: 99% !important;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: auto;
+    padding: 60px 0px;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+/* SELEÇÃO_USUA */
+.selecao_usuario{
+    display: block;
+    text-align: center;
+    width: 30%;
+}
+
+#todas-escolhas{
+    background-color: #222222;
+    color: #ececec;
+    font-weight: 600;
+    border: none;
+    padding: 5px 20px;
+}
+
+#img_escolha{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* PLACAR */
+.placar{
+    justify-content: center;
+    width: 40%;
+    background-color: #afda7c;
+    box-shadow: 0 0 1em #97be68;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#tabela{
+    width: 100%;
+    text-align: center;
+}
+
+#tabela td, #tabela th {
+    padding: 8px;
+    text-align: center;
+    width: 80px;
+    color: #222222;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BTNS */
+.btn-jogar{
+    padding: 8px 180px;
+    margin-bottom: 15px;
+    background-color: #222222;
+    border: none;
+    color: #ececec;
+    font-weight: 600;
+    margin-top: 165px;
+    margin-left: 70px;
+}
+
+.btn-jogar:hover{
+    background-color: #131313;
+    color: #f3f3f3;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #131313;
+}
+
+.btn-reiniciar{
+    padding: 8px 172px;
+    margin-bottom: 30px;
+    background-color: #222222;
+    border: none;
+    color: #ececec;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.btn-reiniciar:hover{
+    background-color: #131313;
+    color: #f3f3f3;
+    transition: 0.5s;
+    box-shadow: 0 0 5px #131313;
+}
+
+/* COMPUTADOR */
+.div-pc{
+    width: 30%;
+    text-align: center;
+}
+
+#imgComputador{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

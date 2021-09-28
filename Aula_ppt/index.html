@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo pedra, papel e tesoura </title>
+</head>
+<body>
+    <div class="bg">
+        <div class="selecao_usuario">
+            <h3>VOCÊ</h3>
+            <select id="todas-escolhas" onchange="escolha()">
+                <option value="selecione" selected>Escolha</option>
+                <option value="pedra">Pedra</option>
+                <option value="papel">Papel</option>
+                <option value="tesoura">Tesoura</option>
+            </select>
+                <br><br>
+                <img id="img_escolha" src="">
+        </div>
+
+        <div class="placar">
+            <table id="tabela">
+                <thead>
+                    <th>Você</th>
+                    <th>X</th>
+                    <th>Computador</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <span id="placar-jogador"></span>
+                        </td>
+                        <td>|</td>
+                        <td>
+                            <span id="placar-computador"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="partidas-jogadas" colspan="3">Partidas Jogadas</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <span id="numero-jogos"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <button class="btn-jogar" onclick = "jogar()">JOGAR</button> <BR>
+            <button class="btn-reiniciar" onclick = "reiniciarPlacar()">REINICAR</button>
+        </div>
+
+        <div class="div-pc">
+            <h3 class="titulo">Computador</h3>
+
+            <img id="imgComputador">
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- <div class="selecao_usuario">
+    <select id="" onchange="escolha()">
+        <option id="opc_pedra" value="1">Pedra</option>
+        <option id="opc_papel" value="2">Papel</option>
+        <option id="opc_tesoura" value="3">Tesoura</option>
+
+        <img id="img_escolha" src="">
+    </select>
+</div> -->
